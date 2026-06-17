@@ -129,3 +129,77 @@ padding:50px;
 text-align:center;
 background:black;
 }
+@media(max-width:600px){
+
+    header{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .hero{
+        padding:50px 20px;
+    }
+
+    .hero h1{
+        font-size:35px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .produtos{
+        padding:50px 20px;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .comentario{
+        width:100%;
+    }
+
+}
+
+/* Tablets */
+@media(max-width: 900px){
+
+    header{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav{
+        display:flex;
+        gap:20px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .hero-image img{
+        width:280px;
+    }
+
+    .cards{
+        flex-wrap:wrap;
+    }
+
+    .comentarios{
+        flex-wrap:wrap;
+    }
+    
+
+}
