@@ -1,0 +1,131 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:25px 10%;
+align-items:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#d4af37;
+}
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:80px 10%;
+gap:80px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#ccc;
+}
+
+button{
+background:#d4af37;
+border:none;
+padding:15px 30px;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+margin-top:20px;
+}
+
+.hero-image img{
+width:350px;
+}
+
+.produtos{
+padding:100px 10%;
+}
+
+.produtos h2{
+text-align:center;
+margin-bottom:60px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.card{
+background:#1a1a1a;
+padding:25px;
+border-radius:20px;
+width:300px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:200px;
+}
+
+.card h3{
+margin-top:20px;
+}
+
+.card h4{
+margin-top:15px;
+color:#d4af37;
+}
+
+.sobre{
+padding:100px 10%;
+text-align:center;
+}
+
+.depoimentos{
+padding:100px 10%;
+}
+
+.comentarios{
+display:flex;
+justify-content:center;
+gap:40px;
+}
+
+.comentario{
+background:#1a1a1a;
+padding:30px;
+width:300px;
+border-radius:20px;
+}
+
+footer{
+padding:50px;
+text-align:center;
+background:black;
+}
